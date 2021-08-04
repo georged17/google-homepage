@@ -11,7 +11,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-.navBar li{
-    display:inline;
+nav{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
 }
+
+.navLeft{
+    border: 1px solid blue;
+}
+
+.navRight{
+    border: 1px solid green;
+    
+}
+
+
