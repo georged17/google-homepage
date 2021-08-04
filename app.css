@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto') 
+    url('/fonts/roboto-v27-latin-regular.woff') format('woff'); /* Modern Browsers */
+        
+  }
+*{
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 .navBar li{
     display:inline;
 }
