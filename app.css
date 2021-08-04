@@ -6,9 +6,7 @@
     url('/fonts/roboto-v27-latin-regular.woff') format('woff'); /* Modern Browsers */
         
   }
-a:visited{
-    color: inherit;
-}
+
   body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -16,14 +14,14 @@ a:visited{
 
 nav{
     display:flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
-    margin: 1.3em;
-    
+    margin: 1em 1.3em;
+    color: black;
 }
 
 .navLeft{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -32,11 +30,20 @@ nav{
   
 }
 .navRight{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 20em;
     font-size: 0.9rem;
+}
+
+.signIn{
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #4287f5;
+    font-weight: 700;
+    border-radius: 5%;
+
 }
 
