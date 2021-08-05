@@ -1,3 +1,5 @@
+/* General styles */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -8,13 +10,19 @@
   }
 
   body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+     border: 1px solid green;
+     height: 100vh;
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    
 }
-
+/* Navigation bar styles */
 nav{
     display:flex;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     justify-content: space-between;
     margin: 1em 1.3em;
     color: black;
@@ -47,3 +55,32 @@ nav{
 
 }
 
+/* Main content styles */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    row-gap: 2rem;
+    border: 1px solid red;
+    padding-top: 10rem;
+}
+
+.logo{
+    border: 1px solid red;
+    
+}
+.form{
+    border: 1px solid red;
+    
+}
+   .form .search{
+    display: block;
+    }
+
+/* Footer stylying */
+
+footer{
+    border: 1px solid red;
+}
