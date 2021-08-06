@@ -19,14 +19,21 @@
      justify-content: space-between;
     
 }
+
+
 /* Navigation bar styles */
-nav{
+.navBar{
     display:flex;
     border: 1px solid red;
     justify-content: space-between;
     margin: 1em 1.3em;
+    font-size: 0.9rem;
+    
+}
+.navBar a{
     color: black;
 }
+
 
 .navLeft{
    /* border: 1px solid blue; */
@@ -34,19 +41,19 @@ nav{
    justify-content: space-around;
    align-items: center;
    width: 10em;
-   font-size: 0.9rem;
-  
+   /* font-size: 0.9rem; */
 }
+
 .navRight{
     /* border: 1px solid green; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 20em;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
 }
 
-.signIn{
+.navRight .signIn{
     padding: 0.5em 1em;
     color: white;
     background-color: #4287f5;
@@ -82,6 +89,29 @@ nav{
 
 /* Footer stylying */
 
-footer{
-    border: 1px solid red;
+.footer{
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    margin-top: 0.1em;
+}
+.footer a{
+    color: black;
+}
+
+.footerLeft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25em;
+}
+
+.footerRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15em;
 }
